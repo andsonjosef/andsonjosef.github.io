@@ -571,10 +571,10 @@ input:required {
       .classy-nav-container .classy-navbar .classynav ul li.cn-dropdown-item ul li a:focus, .classy-nav-container .classy-navbar .classynav ul li.cn-dropdown-item ul li a:hover, .classy-nav-container .classy-navbar .classynav ul li.megamenu-item ul li a:focus, .classy-nav-container .classy-navbar .classynav ul li.megamenu-item ul li a:hover {
         color: #22B299; }
 
-.classynav ul li.active a {
+.classynav ul  a.active {
   position: relative;
   z-index: 1; }
-  .classynav ul li.active a::before {
+  .classynav ul li a.active::before {
     width: calc(100% - 40px);
     height: 2px;
     background-color: #22B299;
@@ -586,10 +586,10 @@ input:required {
     left: 50%;
     transform: translateX(-50%); }
     @media only screen and (min-width: 768px) and (max-width: 991px) {
-      .classynav ul li.active a::before {
+      .classynav ul li a.active::before {
         display: none; } }
     @media only screen and (max-width: 767px) {
-      .classynav ul li.active a::before {
+      .classynav ul li a.active::before {
         display: none; } }
 
 .classynav ul li.has-down > a::after,
