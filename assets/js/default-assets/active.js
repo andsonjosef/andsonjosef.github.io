@@ -193,13 +193,7 @@
     // ****************************
     // :: 13.0 Scrollup Active Code
     // ****************************
-    if ($.fn.scrollUp) {
-        alime_window.scrollUp({
-            scrollSpeed: 1000,
-            scrollText: '<i class="arrow_carrot-up"</i>'
-        });
-    }
-
+ 
     // *********************************
     // :: 14.0 Prevent Default 'a' Click
     // *********************************

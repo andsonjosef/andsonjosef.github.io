@@ -41,6 +41,26 @@ Last Update: Feb 22, 2019
 @import url(css/default-assets/themify-icons.css);
 @import url(css/style.css);
 /* :: 01.0 Reboot CSS */
+
+.float-wpp {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 40px;
+  right: 40px;
+  background-color: #25d366;
+  color: #FFF;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 30px;
+  box-shadow: 2px 2px 3px #999;
+  z-index: 100;
+}
+
+.my-float {
+  margin-top: 16px;
+}
+
 * {
   margin: 0;
   padding: 0; }
