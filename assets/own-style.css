@@ -928,7 +928,12 @@ input:required {
   box-shadow: 3px 0 15px -1px rgba(0, 0, 0, 0.15);
   position: relative;
   z-index: 1;
-  margin-top: 50px; }
+  margin-top: 50px; 
+min-height: 560px;
+}
+@media only screen and (max-width: 992px) {
+  .why-choose-us-content {
+    height: 680px; }
   .why-choose-us-content .chosse-us-icon {
     -webkit-transition-duration: 800ms;
     -o-transition-duration: 800ms;
@@ -946,6 +951,9 @@ input:required {
     top: -38px;
     left: 50%;
     margin-left: -38px; }
+
+   
+
   .why-choose-us-content h4 {
     font-size: 20px;
     font-weight: 500;
