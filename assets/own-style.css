@@ -929,11 +929,12 @@ input:required {
   position: relative;
   z-index: 1;
   margin-top: 50px; 
-min-height: 560px;
+  min-height: 560px;
 }
 @media only screen and (max-width: 992px) {
   .why-choose-us-content {
     height: 680px; }
+  }
   .why-choose-us-content .chosse-us-icon {
     -webkit-transition-duration: 800ms;
     -o-transition-duration: 800ms;
